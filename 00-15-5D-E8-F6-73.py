@@ -1,1 +1,1 @@
-wassup
+print(f"wassup")
