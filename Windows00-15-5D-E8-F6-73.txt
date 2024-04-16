@@ -1,5 +1,0 @@
-Operating System: Windows 10
-Machine Hardware: AMD64
-Processor: AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
-Architecture: 64bit
-MAC: 00-15-5D-E8-F6-73
