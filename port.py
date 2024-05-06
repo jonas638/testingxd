@@ -23,7 +23,7 @@ def get_mac_address():
                 match = pattern.search(line)
                 if match:
                     mac_address = match.group(1)
-                    return mac_address.replace("-", ":")  # Ensure MAC address format is consistent
+                    return mac_address.replace("-", ":") 
         else:
             print("Error:", result.stderr)
             return None
@@ -36,7 +36,7 @@ def port_scan(target_ip, start_port, end_port):
     for port in range(start_port, end_port + 1):
         try:
             with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-                s.settimeout(1)  # Set socket timeout to 1 second
+                s.settimeout(1) 
                 result = s.connect_ex((target_ip, port))
                 if result == 0:
                     open_ports.append(port)
