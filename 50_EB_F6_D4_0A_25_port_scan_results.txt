@@ -1,2 +1,0 @@
-Open ports:
-3306
